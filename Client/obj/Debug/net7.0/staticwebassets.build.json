@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yz+mkKGwDkjflHwvivNDFiRSnzaEzCJavYvAfUofFhs=",
+  "Hash": "MBiMljrBM2c5dQwYutova1RkA3TOE7OIWKNvIz7zso4=",
   "Source": "Client",
   "BasePath": "_content/Client",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\18.09.2023\\WebAPI_JWT\\Client\\wwwroot\\login.html",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\18.09.2023\\WebAPI_JWT\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
     }
   ]
 }

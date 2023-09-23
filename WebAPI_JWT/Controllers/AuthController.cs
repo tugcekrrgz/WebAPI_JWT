@@ -61,7 +61,7 @@ namespace WebAPI_JWT.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(LoginDTO loginDTO)
+        public async Task<IActionResult> Login([FromForm]LoginDTO loginDTO)//ÖNEMLİ
         {
             if(ModelState.IsValid) 
             {

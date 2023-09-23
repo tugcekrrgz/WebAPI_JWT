@@ -47,6 +47,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 builder.Services.AddSingleton<IJwtRepository<IdentityUser>, JwtService>();
 
 
+//Cors
+builder.Services.AddCors(cors =>
+{
+    cors.AddPolicy("JwtCors", options =>
+    {
+        options.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
+
 
 // Add services to the container.
 
@@ -61,6 +70,8 @@ app.UseAuthentication();
 
 
 app.UseRouting();
+
+app.UseCors("JwtCors");
 
 app.UseAuthorization();
 
