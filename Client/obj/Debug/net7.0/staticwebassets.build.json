@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Yz+mkKGwDkjflHwvivNDFiRSnzaEzCJavYvAfUofFhs=",
+  "Source": "Client",
+  "BasePath": "_content/Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Client\\wwwroot",
+      "Source": "Client",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\18.09.2023\\WebAPI_JWT\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\18.09.2023\\WebAPI_JWT\\Client\\wwwroot\\index.html",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\Bilge Adam\\API\\18.09.2023\\WebAPI_JWT\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
