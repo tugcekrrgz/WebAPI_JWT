@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WebAPI_JWT.Models.Context;
+using WebAPI_JWT.Repositories;
+using WebAPI_JWT.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +42,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]))
     };
 });
+
+//IJwtRepository
+builder.Services.AddSingleton<IJwtRepository<IdentityUser>, JwtService>();
 
 
 
